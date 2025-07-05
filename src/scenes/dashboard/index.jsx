@@ -52,7 +52,7 @@ const Dashboard = () => {
           <StatBox
             title="12,361"
             subtitle="Emails Sent"
-            progress="0.75"
+            progress="0.14"
             increase="+14%"
             icon={
               <EmailIcon
@@ -71,7 +71,7 @@ const Dashboard = () => {
           <StatBox
             title="431,225"
             subtitle="Sales Obtained"
-            progress="0.50"
+            progress="0.21"
             increase="+21%"
             icon={
               <PointOfSaleIcon
@@ -90,7 +90,7 @@ const Dashboard = () => {
           <StatBox
             title="32,441"
             subtitle="New Clients"
-            progress="0.30"
+            progress="0.05"
             increase="+5%"
             icon={
               <PersonAddIcon
@@ -109,7 +109,7 @@ const Dashboard = () => {
           <StatBox
             title="1,325,134"
             subtitle="Traffic Received"
-            progress="0.80"
+            progress="0.43"
             increase="+43%"
             icon={
               <TrafficIcon
