@@ -46,7 +46,7 @@ const SidebarComponent = () => {
         height: "100vh",
         ".ps-sidebar-container": {
           backgroundColor: colors.primary[400],
-          height: "100%",
+          height: "100vh",
           display: "flex",
           flexDirection: "column",
         },
