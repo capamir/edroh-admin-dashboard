@@ -10,7 +10,7 @@ const Contacts = () => {
   const colors = tokens(theme.palette.mode);
 
   const columns = [
-    { field: "id", headerName: "ID", flex: 0.5 },
+    { field: "id", headerName: "ID", flex: 0.6},
     { field: "registrarId", headerName: "Registrar ID" },
     {
       field: "name",
@@ -53,7 +53,7 @@ const Contacts = () => {
   ];
 
   return (
-    <Box m="20px">
+    <Box m="10px">
       <Header
         title="CONTACTS"
         subtitle="List of Contacts for Future Reference"
