@@ -70,11 +70,11 @@ const Team = () => {
   ];
 
   return (
-    <Box m="20px">
+    <Box height="90vh">
       <Header title="TEAM" subtitle="Managing the Team Members" />
       <Box
-        m="40px 0 0 0"
-        height="75vh"
+        m="20px 0 0 0"
+        height="80vh"
         sx={{
           "& .MuiDataGrid-root": {
             border: "none",
